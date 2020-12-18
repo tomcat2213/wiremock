@@ -61,8 +61,6 @@ public class WireMockTest {
 
         stubFor(get(urlEqualTo("/categories_and_latest")).atPriority(10)
                 .willReturn(aResponse().withBody(Files.readAllBytes(Paths.get(WireMockTest.class.getResource("/proxymock.json").getPath().substring(1))))));
-        System.out.println("111:::" + get(urlEqualTo("/categories_and_latest")).atPriority(10)
-                .willReturn(aResponse().withBody(Files.readAllBytes(Paths.get(WireMockTest.class.getResource("/proxymock.json").getPath().substring(1))))));
         System.in.read();
     }
 }
