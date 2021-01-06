@@ -7,7 +7,6 @@ import com.homework5.api.ApiObjectModel;
 import com.homework5.steps.AssertModel;
 import com.homework5.steps.StepModel;
 import com.homework5.tesecase.ApiTestCaseModel;
-import com.test.basemethod.BaseMethod;
 import de.sstoehr.harreader.HarReader;
 import de.sstoehr.harreader.HarReaderException;
 import de.sstoehr.harreader.model.Har;
@@ -15,7 +14,6 @@ import de.sstoehr.harreader.model.HarRequest;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;

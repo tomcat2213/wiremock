@@ -1,16 +1,9 @@
 package com.test;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.homework5.actions.ApiActionModel;
-import com.homework5.api.ApiObjectModel;
 import com.homework5.global.ApiLoader;
 import com.homework5.steps.AssertModel;
-import com.homework5.steps.StepModel;
 import com.homework5.tesecase.ApiTestCaseModel;
-import com.test.basemethod.BaseMethod;
-import de.sstoehr.harreader.HarReader;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
